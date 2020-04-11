@@ -1,6 +1,6 @@
--- drop database if exists shop;
--- create database shop;
--- use shop;
+drop database if exists shop;
+create database shop;
+use shop;
 drop table if exists catalogs;
 create table catalogs (
 	id serial primary key,
